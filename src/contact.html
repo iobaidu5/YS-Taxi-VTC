@@ -1,0 +1,102 @@
+---
+layout: default
+permalink: /contact
+title:
+description:
+keywords: contact
+---
+
+
+
+<section class="banner">
+  <div class="container-fluid">
+    <div class="banner_content">
+      <h1 class="banner_content-title">Contactez-nous</h1>
+      <div class="banner_buttons">
+        <div class="banner_buttons-button">
+          <a class="nav-link Navbar_nav-btn upper" href="{% link devis.html %}">réservation en ligne</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact section pt-0">
+  <div class="container-fluid">
+    <div class="devis_content pt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form">
+            <div class="menu_content mb-5">
+              <h2 class="menu_content-title">Demandes spécifiques de trajet VTC ou pour toutes questions...</h2>
+            </div>
+            <form class="menu_form-form" id="contactForm" method="post" action="{{ site.data.company.url.notify }}">
+              <input type="hidden" name="lang" value="fr">
+              <input type="hidden" name="redirectUrl" value="{{site.data.company.url.redirect}}" />
+              <input type="hidden" name="type" value="contact" />
+              <input type="hidden" name="website" value="{{ site.data.company.website }}" />
+              <input type="hidden" name="lang" value="{{ site.data.company.lang }}" />
+              <input type="hidden" name="firstName" value="" />
+              <input type="hidden" name="key" value="{{ site.data.company.recaptcha.server }}">
+              <div class="form_content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12 pb-0">
+
+                      <p class="form_p">Envoyez-nous un message et remplissez les champs ci-dessous. <br>
+                        <strong>Nous vous répondrons le plus rapidement possible</strong>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="address-depart" class="form_bottom-content--label">Votre nom *</label>
+                      <input type="text" name="lastname" id="lastname" placeholder="Votre nom *" class="form_input">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="address-arrival" class="form_bottom-content--label">Votre prénom:</label>
+                      <input type="text" name="name" id="name" placeholder="Votre prénom" class="form_input">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email" class="form_bottom-content--label">Votre adresse mail *</label>
+                      <input type="email" name="email" id="email" placeholder="Votre adresse mail" class="form_input">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="phone" class="form_bottom-content--label">Votre n° de téléphone *</label>
+                      <input type="numer" name="phone" id="phone" placeholder="+33" class="form_input">
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        <textarea class="form_input h-100" name="commentaire" id="commentaire" rows="5"
+                          placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group mx-auto d-flex justify-content-center">
+                    <div class="g-recaptcha" data-sitekey="{{ site.data.company.recaptcha.client }}">
+                    </div>
+                    <br />
+                    <input style="display: none" type="submit" value="Submit" class="wpcf7-wpcf7-submit" />
+                  </div>
+                  <div id="contact-form-response" style="font-size: 2rem;"></div>
+                  <div class="checkbox d-flex justify-content-center mb-5">
+                    <input name="condition" type="checkbox" />
+                    <span class="menu_form--label" style="font-size: 1.6rem; color: #fff;">
+                      &nbsp; En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                      de vos données par ce site *</span>
+                    <i class="fa fa-info-square" aria-hidden="true"></i>
+                  </div>
+                  <div class="d-flex justify-content-center mt-2 mx-auto">
+                    <button type="submit" class="form_content-submit form-submit" value="Submit">VALIDER</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,224 @@
+---
+layout: default
+permalink: /devis
+title: 
+description: 
+keywords: devis
+---
+
+
+<section class="devis">
+  <div class="container-fluid">
+    <div class="devis_content">
+      <div class="row">
+        <div class="col-md-7">
+        </div>
+        <div class="col-md-5">
+          <div class="form">
+            <form class="contact_content-form" id="contactForm" method="post" action="{{ site.data.company.url.notify }}">
+              <input type="hidden" name="lang" value="fr">
+              <input type="hidden" name="redirectUrl" value="{{site.data.company.url.redirect}}" />
+              <input type="hidden" name="type" value="contact" />
+              <input type="hidden" name="website" value="{{ site.data.company.website }}" />
+              <input type="hidden" name="lang" value="{{ site.data.company.lang }}" />
+              <input type="hidden" name="firstName" value="" />
+              <input type="hidden" name="key" value="{{ site.data.company.recaptcha.server }}">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="selector">
+                    <div class="row">
+                      <div class="col-md-12 no-p-m-right" id="trajet-btn">
+                        <div class="selecotr-item">
+                          <input type="radio" id="radio1" name="travel-type" class="selector-item_radio" checked>
+                          <label for="radio1" class="selector-item_label">Formulaire de pré-réservation en ligne</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form_content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12 pb-0">
+  
+                      <p class="form_p">10% de remise pour les retours !<br>
+                        Pour toute réservation immédiate contactez nous au :</p>
+  
+                        <div class="d-flex justify-content-center mt-2 mx-auto">
+                          <a href="tel:{{site.data.company.phone}}" class="form_content-submit"> <i class="fas fa-phone-alt"></i> &nbsp; &nbsp;{{site.data.company.phone}}</a>
+                        </div>
+  
+  
+  
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label for="address-depart" class="form_bottom-content--label">Adresse de départ:</label>
+                      <input type="text" name="address-depart" id="address-depart" placeholder="Adresse de départ:" class="form_input">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="address-arrival" class="form_bottom-content--label">Adresse d’arrivée:</label>
+                      <input type="text" name="address-arrival" id="address-arrival" placeholder="Adresse d’arrivée" class="form_input">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="date" class="form_bottom-content--label">Date (aller)</label>
+                      <input type="date" name="date" id="date" class="form_input" onfocus="(this.type='date')">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="Heure :" class="form_bottom-content--label">Heure :</label>
+                    </div>
+                    <div class="col-md-6">
+                      <select name="hours" id="hours" class="form_input">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select name="minutes" id="minutes" class="form_input">
+                        <option value="00">00</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <option value="45">45</option>
+                        <option value="46">46</option>
+                        <option value="47">47</option>
+                        <option value="48">48</option>
+                        <option value="49">49</option>
+                        <option value="50">50</option>
+                        <option value="51">51</option>
+                        <option value="52">52</option>
+                        <option value="53">53</option>
+                        <option value="54">54</option>
+                        <option value="55">55</option>
+                        <option value="56">56</option>
+                        <option value="57">57</option>
+                        <option value="58">58</option>
+                        <option value="59">59</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row mx-5">
+                      <div class="col-md-12 p-0">
+                        <div class="">
+                          <div class="row align-items-center">
+                            <div class="col-md-5">
+                              <div class="form_bottom-content">
+                                <label for="passagers" class="form_bottom-content--label mb-4"><i class="fas fa-male"></i> &nbsp; Passagers:
+                                </label>
+                                <select name="passagers" id="passagers" class="form_input2">
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-5">
+                              <div class="form_bottom-content">
+                                <label for="date" class="form_bottom-content--label mb-4"><i class="fas fa-briefcase"></i> &nbsp; Bagages: </label>
+                                <input type="number" name="bagages" id="bagages" class="form_input2">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <p class="form_p">Après validation, nous allons vous recontacter pour confirmer la course.</p>
+  
+                  <div class="form-group mx-auto d-flex justify-content-center mt-3 mb-2">
+                    <div class="g-recaptcha" data-sitekey="{{ site.data.company.recaptcha.client }}">
+                    </div>
+                    <br />
+                    <input style="display: none" type="submit" value="Submit" class="wpcf7-wpcf7-submit" />
+                  </div>
+                  <div id="contact-form-response" style="font-size: 2rem; color: #fff;"></div>
+                  <div class="checkbox d-flex justify-content-center align-items-start">
+                    <input name="condition" type="checkbox" />
+                    <span class="menu_form--label d-flex" style="font-size: 1.4rem; color: #fff;">
+                      &nbsp;&nbsp; En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                      de vos données par ce site *</span>
+                    <i class="fa fa-info-square" aria-hidden="true"></i>
+                  </div>
+                  <div class="d-flex justify-content-center mt-2 mx-auto">
+                    <button type="submit" class="form_content-submit form-submit" value="Submit">réservation</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

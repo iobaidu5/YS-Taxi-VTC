@@ -1,0 +1,71 @@
+<div class="top">
+    <div class="container-fluid">
+        <div class="top_content">
+            <div class="top_content-left">
+                <div>
+                    <a href="mailto:{{site.data.company.phone}}" class="top_content-right--p"><span
+                            class="top_content-right--icon"><i class="fas fa-phone-alt"></i>
+                        </span> &nbsp;&nbsp;{{site.data.company.phone}}</a>
+                </div>
+                <p class="top_content-right--p mt-3">|</p>
+                <div class="mt-3">
+                    <p class="top_content-right--p"><span
+                            class="top_content-right--icon"><i class="fas fa-map-marker-alt"></i>
+                        </span>&nbsp;&nbsp;{{site.data.company.address}}</p>
+                </div>
+            </div>
+            <div class="top_content-right">
+              <div>
+                <a href="{% link devis.html %}" class="top_content-right--p"><span
+                        class="top_content-right--icon"><i class="fas fa-file-download"></i>
+                    </span>&nbsp;&nbsp;Réservation en ligne</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Navbar navbar-main fixedNav">
+    <nav class="navbar Navbar_main navbar-expand-lg fixedNav">
+        <div class="container-fluid">
+            <a href="{% link accueil.html %}" class="Navbar_image"><img loading="lazy" src="../assets/img/logo.png" alt="logo easy ride"
+                class="Navbar_image-img"></a>
+            <button class="navbar-toggler Navbar_toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars toggle-button Navbar_toggler-icon" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse Navbar_nav-collapse" id="navbarNav">
+                <ul class="navbar-nav Navbar_nav mx-auto">
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="{% link accueil.html %}"> Accueil</a>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="{% link notre-entreprise.html %}">
+                            Notre entreprise</a>
+                    </li>
+                    <li class="nav-item dropdown  Navbar_nav-item hide-990">
+                      <a class="nav-link Navbar_nav-link dropdown-toggle" href="{% link nos-services.html %}">
+                        Nos prestations
+                      </a>
+                      <div class="dropdown-menu drop-down" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="{% link mise-a-disposition-de-vehicules-avec-chauffeur.html %}">Mise à disposition de véhicules avec chauffeur</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="{% link transports-vers-les-gares-de-paris.html %}">Transports vers les gares de Paris</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="{% link transferts-vers-les-aeroports-de-paris.html %}">Transferts vers les aéroports de Paris</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="{% link transports-dans-les-departements-77.html %}">Transports dans les départements 77, 94 et 91</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="{% link trajets-vers-les-parcs-d-attractions.html %}">Trajets vers les parcs d’attractions</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="{% link services-sur-mesure.html %}">Services sur mesure</a>
+                      </div>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="{% link zones-d-intervention.html %}">Notre zone d’intervention</a>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="{% link contact.html %}">Contactez-nous</a>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-btn" href="{% link devis.html %}">réservation en ligne</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
