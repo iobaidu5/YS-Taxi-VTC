@@ -227,7 +227,6 @@ body {
 
 
   @media only screen and (max-width: 990px) {
-    position: fixed !important;
     width: 100%;
     max-width: 100%;
     background-color: #000 !important;
@@ -237,7 +236,7 @@ body {
     left: 0 !important;
     transition: .2s;
     z-index: 1000 !important;
-    padding: .5rem 2rem !important;
+    padding: .5rem 0 !important;
   }
 
   @media only screen and (max-width: 768px) {
@@ -409,162 +408,24 @@ body {
   z-index: -1;
   padding: 7rem 14rem;
 
-  &-2{
-    position: relative;
-    background-image: url("../img/banner2.webp ");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    height: 80rem;
-
-    @media only screen and (max-width: 1200px) {
-      height: auto;
-    }
-
-    @media only screen and (max-width: 990px) {
-      height: auto;
-    }
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.33) !important;
-      z-index: -1;
-      transition: 0.5s;
-  
-      @media only screen and (max-width: 990px) {
-        clip-path: none;
-      }
-    }
+  @media only screen and (max-width: 1600px) {
+    padding: 7rem 10rem;
   }
 
-  &-3{
-    position: relative;
-    background-image: url("../img/banner3.webp ");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    height: 80rem;
-
-    @media only screen and (max-width: 990px) {
-      height: auto;
-    }
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.33) !important;
-      z-index: -1;
-      transition: 0.5s;
-  
-      @media only screen and (max-width: 990px) {
-        clip-path: none;
-      }
-    }
+  @media only screen and (max-width: 1200px) {
+    padding: 7rem;
   }
 
-  &-4{
-    position: relative;
-    background-image: url("../img/banner4.webp ");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    height: 80rem;
-
-    @media only screen and (max-width: 990px) {
-      height: auto;
-    }
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.33) !important;
-      z-index: -1;
-      transition: 0.5s;
-  
-      @media only screen and (max-width: 990px) {
-        clip-path: none;
-      }
-    }
-  }
-
-  &-5{
-    position: relative;
-    background-image: url("../img/banner5.webp ");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    height: 80rem;
-
-    @media only screen and (max-width: 990px) {
-      height: auto;
-    }
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.33) !important;
-      z-index: -1;
-      transition: 0.5s;
-  
-      @media only screen and (max-width: 990px) {
-        clip-path: none;
-      }
-    }
-  }
-
-  &-6{
-    position: relative;
-    background-image: url("../img/devis-banner.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    height: 80rem;
-
-    @media only screen and (max-width: 990px) {
-      height: auto;
-    }
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.3) !important;
-      z-index: -1;
-      transition: 0.5s;
-  
-      @media only screen and (max-width: 990px) {
-        clip-path: none;
-      }
-    }
+  @media only screen and (max-width: 1000px) {
+    padding: 7rem 4rem;
   }
 
   @media only screen and (max-width: 990px) {
-    clip-path: none;
+    padding: 7rem 2rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 5rem 0rem;
   }
 
 
@@ -714,6 +575,27 @@ body {
 
   &_content{
     padding: 10rem 7rem;
+
+
+  @media only screen and (max-width: 1600px) {
+    padding: 10rem 7rem;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    padding: 7rem 5rem;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    padding: 5rem 5rem;
+  }
+
+  @media only screen and (max-width: 990px) {
+    padding: 5rem 2rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 5rem 0rem;
+  }
   }
 }
 
@@ -959,7 +841,7 @@ body {
       color: var(--color-secondary);
 
       @media only screen and (max-width: 990px) {
-        text-align: left !important;
+        text-align: center !important;
       }
 
       @media only screen and (max-width: 600px) {
@@ -1997,7 +1879,10 @@ body {
   float: right;
 
   @media only screen and (max-width: 990px) {
-    float: left;
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
 }
 
@@ -2926,6 +2811,22 @@ body {
       color: var(--color-primary);
       cursor: pointer;
     }
+  }
+}
+
+.hide-990{
+  display: block !important;
+
+  @media only screen and (max-width: 990px) {
+    display: none !important;
+  }
+}
+
+.show-990{
+  display: none !important;
+
+  @media only screen and (max-width: 990px) {
+    display: block !important;
   }
 }
 
