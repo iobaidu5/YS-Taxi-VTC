@@ -1,0 +1,1101 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/public.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./assets/js/popper.min.js"></script>
+    <script defer src="./assets/js/bootstrap.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1K57TTEQDR"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-1K57TTEQDR'); </script>
+    <title></title>
+<meta property="og:title" content="" />
+<meta property="og:locale" content="fr_FR" />
+<meta name="description" content="" />
+<meta property="og:description" content="" />
+<meta name="keywords" content="" />
+<link rel="canonical" href="http://localhost:4000/reservation" />
+<meta property="og:url" content="http://localhost:4000/reservation" />
+<meta property="og:site_name" content="BHInternet" />
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"WebSite",
+"url":"http://localhost:4000/reservation",
+"description":"",
+"name":""
+}
+</script>
+
+</head>
+  <body>
+    <div class="top">
+    <div class="container-fluid">
+        <div class="top_content">
+            <div class="top_content-left">
+                <div>
+                    <a href="tel:07 67 36 86 14" class="top_content-right--p"><span
+                            class="top_content-right--icon"><i class="fas fa-phone-alt"></i>
+                        </span> &nbsp;&nbsp;07 67 36 86 14</a>
+                </div>
+                <p class="top_content-right--p mt-3">|</p>
+                <div class="mt-3">
+                    <p class="top_content-right--p"><span
+                            class="top_content-right--icon"><i class="fas fa-map-marker-alt"></i>
+                        </span>&nbsp;&nbsp;Combs-la-Ville</p>
+                </div>
+            </div>
+            <div class="top_content-right">
+              <div>
+                <a href="./reservation.html" class="top_content-right--p"><span
+                        class="top_content-right--icon"><i class="fas fa-file-download"></i>
+                    </span>&nbsp;&nbsp;Réservation en ligne</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Navbar navbar-main fixedNav">
+    <nav class="navbar Navbar_main navbar-expand-lg fixedNav">
+        <div class="container-fluid">
+            <a href="./index.html" class="Navbar_image"><img loading="lazy" src="./assets/img/logo.png" alt="logo easy ride"
+                class="Navbar_image-img"></a>
+            <button class="navbar-toggler Navbar_toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars toggle-button Navbar_toggler-icon" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse Navbar_nav-collapse" id="navbarNav">
+                <ul class="navbar-nav Navbar_nav mx-auto">
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./index.html"> Accueil</a>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./notre-entreprise.html">
+                            Notre entreprise</a>
+                    </li>
+                    <li class="nav-item dropdown  Navbar_nav-item hide-990">
+                      <a class="nav-link Navbar_nav-link dropdown-toggle" href="./nos-services.html">
+                        Nos prestations
+                      </a>
+                      <div class="dropdown-menu drop-down" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./mise-a-disposition-de-vehicules-avec-chauffeur.html">Mise à disposition de véhicules avec chauffeur</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./transports-vers-les-gares-de-paris.html">Transports vers les gares de Paris</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./transferts-vers-les-aeroports-de-paris.html">Transferts vers les aéroports de Paris</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./trajets-vers-les-parcs-d-attractions.html">Trajets vers les parcs d’attractions</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./services-sur-mesure.html">Services sur mesure</a>
+                        <!-- <a class="dropdown-item nav-link Navbar_nav-link py-3" href="#">Partenariats hôtels et entreprises</a> -->
+                      </div>
+                    </li>
+
+                    <li class="nav-item dropdown  Navbar_nav-item show-990">
+                      <a class="nav-link Navbar_nav-link dropdown-toggle" href="./nos-services.html" id="dropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nos prestations
+                      </a>
+                      <div class="dropdown-menu Navbar_nav-link py-3" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./mise-a-disposition-de-vehicules-avec-chauffeur.html">Mise à disposition de véhicules avec chauffeur</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./transports-vers-les-gares-de-paris.html">Transports vers les gares de Paris</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./transferts-vers-les-aeroports-de-paris.html">Transferts vers les aéroports de Paris</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./trajets-vers-les-parcs-d-attractions.html">Trajets vers les parcs d’attractions</a>
+                        <a class="dropdown-item nav-link Navbar_nav-link py-3" href="./services-sur-mesure.html">Services sur mesure</a>
+                      </div>
+                    </li>
+
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./zones-d-intervention.html">Notre zone d’intervention</a>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./contact.html">Contactez-nous</a>
+                    </li>
+                    <!-- <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-btn" href="./reservation.html">réservation en ligne</a>
+                    </li> -->
+
+                    <li class="nav-item Navbar_nav-item">
+                      <a class="nav-link Navbar_nav-btn" href="./reservation.html">réservation</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+    
+
+    <div class="">
+        <section class="reservation">
+  <div class="container-fluid">
+    <div id="loader">
+      <div class="loader"></div>
+    </div>
+    <div class="reservation_steps">
+
+      <div class="reservation_step reservation_step-active" id="step1">
+        <div class="reservation_step-content">
+          <div class="reservation_step-number">
+            <p class="reservation_step-number--p">1</p>
+          </div>
+        </div>
+        <div>
+          <p class="reservation_step-bottom">Entrez les détails du trajet</p>
+        </div>
+      </div>
+
+      <hr class="reservation_step-line">
+      <div class="reservation_step" id="step2">
+        <div class="reservation_step-content">
+          <div class="reservation_step-number">
+            <p class="reservation_step-number--p">2</p>
+          </div>
+        </div>
+        <div>
+          <p class="reservation_step-bottom">Choisir un véhicule</p>
+        </div>
+      </div>
+      <hr class="reservation_step-line">
+      <div class="reservation_step" id="step3">
+        <div class="reservation_step-content">
+          <div class="reservation_step-number">
+            <p class="reservation_step-number--p">3</p>
+          </div>
+        </div>
+        <div>
+          <p class="reservation_step-bottom">Entrez les coordonnées</p>
+        </div>
+      </div>
+      <hr class="reservation_step-line" id="step4">
+      <div class="reservation_step">
+        <div class="reservation_step-content">
+          <div class="reservation_step-number">
+            <p class="reservation_step-number--p">4</p>
+          </div>
+        </div>
+        <div>
+          <p class="reservation_step-bottom">Résumé de la réservation</p>
+        </div>
+      </div>
+    </div>
+    <div class="reservation_form">
+      <form class="reservation_form-form" id="devisForm" method="post" action="https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify">
+        <input type="hidden" name="lang" value="fr">
+        <input type="hidden" name="type" value="devis">
+        <input type="hidden" name="firstName" value="" />
+        <input type="hidden" name="website" value="90">
+        <input type="hidden" name="redirectUrl" value="/">
+        <input type="hidden" name="key" value="6LexbaYkAAAAAEvvC9FJdllPo1fS7enAMauPwccz">
+        <input type="hidden" name="website" value="90" />
+        <div class="row">
+          <div class="col-12">
+
+
+
+
+            <div class="form-1">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label class="reservation_form-label">Date de départ</label>
+                        <input type="date" class="reservation_form-input" id="date-depart" name="date de depart"
+                          required>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label class="reservation_form-label">Heure de départ</label>
+                        <input type="time" class="reservation_form-input" id="time-depart" name="time de depart"
+                          required>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label class="reservation_form-label">Adresse de départ</label>
+                        <div class="form-group autocomplete">
+                          <input type="text" class="reservation_form-input" id="adresse-depart" name="adresse de depart"
+                            placeholder="adresse, code postale, ville" autocomplete="off" required>
+                          <ul class="autocomplete-list-depart"></ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label class="reservation_form-label">Adresse d'Arrivée</label>
+                        <div class="form-group autocomplete">
+                          <input type="text" class="reservation_form-input" id="adresse-destination"
+                            name="adresse de destination" placeholder="adresse, code postale, ville" autocomplete="off"
+                            required>
+                          <ul class="autocomplete-list-destination"></ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label class="reservation_form-label">Type de transfert</label>
+                        <select class="reservation_form-input" id="type-de-transfert" name="type-de-transfert">
+                          <option value="Aller simple" selected>Aller simple</option>
+                          <!-- <option value="Aller/Retour">Aller/Retour</option> -->
+                        </select>
+                      </div>
+                    </div>
+                      <div class="col-md-12 p-0">
+                        <div class="">
+                          <div class="row align-items-center">
+                            <div class="col-md-5">
+                              <div class="form_bottom-content">
+                                <label for="passagers" class="form_bottom-content--label mb-4"><i
+                                    class="fas fa-male"></i> &nbsp; Passagers:
+                                </label>
+                                <select name="nombre-passagers" id="nombre-passagers" class="form_input2">
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-5">
+                              <div class="form_bottom-content">
+                                <label for="date" class="form_bottom-content--label mb-4"><i
+                                    class="fas fa-briefcase"></i> &nbsp; Bagages: </label>
+                                <input type="number" name="bagages" id="bagages" class="form_input2">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div id="map"></div>
+                  <div class="chbs">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="chbs_content t-right">
+                          <div> <span class="chbs_content-icon"><i class="fas fa-map-marker-alt"></i></span></div>
+                          <div>
+                            <span class="chbs_content-title">Distance</span>
+                            <br>
+                            <span>
+                              <span class="chbs_content-val dist" id="">0</span>
+                              <span class="chbs_content-val">km</span>
+                            </span>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="chbs_content t-left">
+                          <div> <span class="chbs_content-icon"><i class="fas fa-clock"></i></span></div>
+                          <div>
+                            <span class="chbs_content-title">Durée</span>
+                            <br>
+                            <span>
+                              <span class="chbs_content-val hours" id="">0</span>
+                              <span class="chbs_content-val">h:</span>
+                              <span class="chbs_content-val minutes" id="">0</span>
+                              <span class="chbs_content-val">m</span>
+                            </span>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <button id="form-1-btn" class="reservation_form-button">Voir le prix &nbsp; <i
+                      class="fas fa-chevron-right"></i></button>
+                  <div class="d-flex justify-content-center mt-2 mx-auto">
+                    <!-- <button type="submit" class="form_content-submit form-submit" value="Submit">réservation</button> -->
+                    <!-- <button type="button" class="form_content-submit mb-3" id="estimation">Estimation</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="form-2">
+              <div class="row">
+                <div class="col-md-3">
+
+
+                  <div class="chbs-layout-column-left"
+                    style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+
+
+
+                    <div class="theiaStickySidebar"
+                      style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none; top: 0px; left: 200px;">
+                      <div class="chbs-summary">
+                        <div class="chbs-summary-header">
+                          <h4>Résumé</h4>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">Type de course</div>
+                          <div class="chbs-summary-field-value">Tarif par KM <span id="perKm"></span> </div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">Type de transfert</div>
+                          <div class="chbs-summary-field-value">Allez simple</div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">Adresse de Départ</div>
+                          <div class="chbs-summary-field-value" id="depart"></div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">Adresse d'Arrivée</div>
+                          <div class="chbs-summary-field-value" id="arrive"></div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">DATE ET HEURE DE DÉPART<br>
+                            Date et heure de départ</div>
+                          <div class="chbs-summary-field-value"><span id="selectedDate"></span> <span id="selectedTime"></span></div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+                          <div class="chbs-layout-50x50 chbs-clear-fix">
+                            <div class="chbs-layout-column-left">
+
+                              <div class="chbs-summary-field-name">Distance</div>
+                              <div class="chbs-summary-field-value">378.2 km</div>
+
+                            </div>
+                            <div class="chbs-layout-column-right">
+
+                              <div class="chbs-summary-field-name">Durée</div>
+                              <div class="chbs-summary-field-value"><span class="hours"></span> h <span class="minutes"></span> m</div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="chbs-summary-price-element">
+
+                        <div class="chbs-summary-price-element-vehicle-fee">
+                          <span>Véhicule choisi</span>
+                          <span class="vehChoose"></span>
+                        </div>
+
+                        <div class="chbs-summary-price-element-total">
+                          <span>Total</span>
+                          <span class="totalFare">€0</span>
+                        </div>
+
+                      </div>
+                      <div class="resize-sensor"
+                        style="position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden;">
+                        <div class="resize-sensor-expand"
+                          style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                          <div
+                            style="position: absolute; left: 0px; top: 0px; transition: all; width: 244px; height: 790px;">
+                          </div>
+                        </div>
+                        <div class="resize-sensor-shrink"
+                          style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                          <div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- <div class="reservation_info">
+                    <h2 class="reservation_info-title">Résumé</h2>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">Type de course</p>
+                      <p class="reservation_info-value">Tarif par KM</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">Type de transfert</p>
+                      <p class="reservation_info-value">Allez simple</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">Adresse de Départ</p>
+                      <p class="reservation_info-value">Paris, France</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">DATE ET HEURE DE DÉPART<br>
+                        Date et heure de départ</p>
+                      <p class="reservation_info-value">28-01-2025, 0:00</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">Type de course</p>
+                      <p class="reservation_info-value">Tarif par KM</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <p class="reservation_info-header">Distance</p>
+                          <p class="reservation_info-value">378.2 km</p>
+                        </div>
+                        <div class="col-md-6">
+                          <p class="reservation_info-header">Durée</p>
+                          <p class="reservation_info-value">3 h 40 m</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+
+                </div>
+                <div class="col-md-9">
+                  <div class="second-step">
+
+
+
+
+
+
+                    <div class="voiture-Van">
+                      <div class="Van " style="">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <label for="van">
+                              <img src="./assets/img/car4.png" alt="Van" />
+                            </label>
+                          </div>
+                          <div class="col-md-4">
+                            <h3 class="chbs_content-title">Berline business</h3>
+                            <p class="chbs_content-val prix">€0</p>
+                          </div>
+                          <div class="col-md-2">
+                            <input type="hidden" id="van-car" name="Estimation du prix" class="priceInput" value="none">
+                            <input type="radio" name="vehicule" id="van" value="van" class="radio-btn">
+                            <label for="van" class="btn-label">Sélectionner</label>
+                          </div>
+                        </div>
+                        <div class="row align-items-center">
+                          <div class="col-md-6">
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button
+                                    class="accordion-button collapsed d-flex justify-content-center mx-auto form_content-submit2"
+                                    type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fas fa-chevron-circle-down ii"></i> Plus d'infos
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                  data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <ul class="ml-5">
+                                      <li class="cal">Paris-Paris 65€</li>
+                                      <li class="cal">Orly-Paris 75€</li>
+                                      <li class="cal">CDG/Le bourget-Paris 90€</li>
+                                      <li class="cal">Paris-Disney 120€</li>
+                                      <li class="cal">Banlieue 2.50€/km (***Minimum de course 50€)</li>
+                                      <li class="cal">Mise à disposition 70€/h (3h minimum)</li>
+                                    </ul>
+                                    <!-- <p>
+                                                Déplacement en famille ou d’une ville à une autre ville, optez pour une voiture spacieuse qui offre une conduite silencieuse et confortable.
+                                            </p> -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <p class="cal"><i class="fas fa-user-friends ii"></i> <span class="countVal">3</span></p>
+                          </div>
+                          <div class="col-md-3">
+                            <p class="cal"><i class="fas fa-suitcase-rolling ii"></i>&nbsp;&nbsp; <span class="countVal">3</span></p>
+                          </div>
+                        </div>
+                        <!-- <div class="icones">
+                          <img class="persons" src="./assets/img/people-group-solid.svg" alt="icone groupe de personnes">
+                        </div> -->
+                      </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="voiture-Berline">
+                      <div class="Berline">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <label for="berline">
+                              <img src="./assets/img/car1.png" alt="Berline" />
+                            </label>
+                          </div>
+                          <div class="col-md-4">
+                            <h3 class="chbs_content-title">Standard</h3>
+                            <p class="chbs_content-val prix">€0</p>
+                          </div>
+                          <div class="col-md-2">
+                            <input type="hidden" id="berline-car" name="Estimation du prix" class="priceInput" value="none">
+                            <input type="radio" name="vehicule" id="berline" value="berline" class="radio-btn">
+                            <label for="berline" class="btn-label">Sélectionner</label>
+                          </div>
+                        </div>
+                        <div class="row align-items-center">
+                          <div class="col-md-6">
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button
+                                    class="accordion-button collapsed d-flex justify-content-center mx-auto form_content-submit2"
+                                    type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    <i class="fas fa-chevron-circle-down ii"></i> Plus d'infos
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                  data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <ul class="ml-5">
+                                      <li class="cal">Paris-Paris 45€</li>
+                                      <li class="cal">Orly-Paris 55€</li>
+                                      <li class="cal">CDG/Le bourget-Paris 70€</li>
+                                      <li class="cal">Beauvais-Paris 220€</li>
+                                      <li class="cal">Paris-Disney 100€</li>
+                                      <li class="cal">Banlieue 2€/km (***Minimum de course 30€)</li>
+                                      <li class="cal">Mise à disposition 60€/h (3h minimum)</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <p class="cal"><i class="fas fa-user-friends ii"></i> <span class="countVal">3</span></p>
+                          </div>
+                          <div class="col-md-3">
+                            <p class="cal"><i class="fas fa-suitcase-rolling ii"></i>&nbsp;&nbsp; <span class="countVal">3</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                    <div class="voiture-Eco">
+                      <div class="Eco">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <label for="eco">
+                              <img src="./assets/img/car3.png" alt="Eco" />
+                            </label>
+                          </div>
+                          <div class="col-md-4">
+                            <h3 class="chbs_content-title">Monospace</h3>
+                            <p class="chbs_content-val prix">€0</p>
+                          </div>
+                          <div class="col-md-2">
+                            <input type="hidden" id="eco-car" name="Estimation du prix" class="priceInput" value="none">
+                            <input type="radio" name="vehicule" id="eco" value="eco" class="radio-btn">
+                            <label for="eco" class="btn-label">Sélectionner</label>
+                          </div>
+                        </div>
+                        <div class="row align-items-center">
+                          <div class="col-md-6">
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button
+                                    class="accordion-button collapsed d-flex justify-content-center mx-auto form_content-submit2"
+                                    type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    <i class="fas fa-chevron-circle-down ii"></i> Plus d'infos
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                  data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <ul class="ml-5">
+                                      <li class="cal">Paris-Paris 55€</li>
+                                      <li class="cal">Orly-Paris 65€</li>
+                                      <li class="cal">CDG/Le bourget-Paris 80€</li>
+                                      <li class="cal">Paris-Disney 120€</li>
+                                      <li class="cal">Banlieue 2€/km (*** Minimum de course 30€)</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <p class="cal"><i class="fas fa-user-friends ii"></i> <span class="countVal">5</span></p>
+                          </div>
+                          <div class="col-md-3">
+                            <p class="cal"><i class="fas fa-suitcase-rolling ii"></i>&nbsp;&nbsp; <span class="countVal">3</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                    <div class="voiture-Limousine">
+                      <div class="Limousine">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <label for="limousine">
+                              <img src="./assets/img/car4.png" alt="Van" />
+                            </label>
+                          </div>
+                          <div class="col-md-4">
+                            <h3 class="chbs_content-title">Van</h3>
+                            <p class="chbs_content-val prix">€0</p>
+                          </div>
+                          <div class="col-md-2">
+                            <input type="hidden" id="limousine-car" name="Estimation du prix" class="priceInput" value="none">
+                            <input type="radio" name="vehicule" id="limousine" value="limousine" class="radio-btn">
+                            <label for="limousine" class="btn-label">Sélectionner</label>
+                          </div>
+                        </div>
+                        <div class="row align-items-center">
+                          <div class="col-md-6">
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button
+                                    class="accordion-button collapsed d-flex justify-content-center mx-auto form_content-submit2"
+                                    type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    <i class="fas fa-chevron-circle-down ii"></i> Plus d'infos
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                  data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <ul class="ml-5">
+                                      <li class="cal">Paris-Paris 80€</li>
+                                      <li class="cal">Orly-Paris 100€</li>
+                                      <li class="cal">CDG/Le bourget-Paris 110€</li>
+                                      <li class="cal">Beauvais-Paris 260€</li>
+                                      <li class="cal">Paris-Disney 155€</li>
+                                      <li class="cal">Banlieue 3€/km (*** Minimum de course 50€)</li>
+                                      <li class="cal">Mise à disposition 80€/h (3h minimum)</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <p class="cal"><i class="fas fa-user-friends ii"></i> <span class="countVal">7</span></p>
+                          </div>
+                          <div class="col-md-3">
+                            <p class="cal"><i class="fas fa-suitcase-rolling ii"></i>&nbsp;&nbsp; <span class="countVal">4</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                    <ul class="ml-5">
+                      <h2 class="accordion-header" id="headingFour">Extras: </h2>
+                      <li class="cal">Attente illimitée (5€)</li>
+                      <li class="cal">Accueil pancarte (5€)</li>
+                      <li class="cal">siège enfant ou réhausseur (5€)</li>
+
+                    </ul>
+                    <input type="hidden" name="Estimation du prix" class="priceChoosen" value="none">
+
+                    <input type="hidden" name="Estimation du prix" class="priceChoosen" value="none">
+                    <button type="button" class="form_content-submit2 p-3 d-flex justify-content-center mx-auto"
+                      id="suivant"></button>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-md-12 mt-5">
+                <button id="form-2-btn" class="reservation_form-button">ÉTAPE SUIVANTE &nbsp; <i
+                    class="fas fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+
+
+
+            <div class="form-3">
+              <div class="row">
+                <div class="col-md-3">
+
+
+                  <div class="chbs-layout-column-left"
+                    style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+
+
+
+                    <div class="theiaStickySidebar"
+                      style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none; top: 0px; left: 200px;">
+                      <div class="chbs-summary">
+                        <div class="chbs-summary-header">
+                          <h4>Résumé</h4>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">Type de course</div>
+                          <div class="chbs-summary-field-value">Tarif par KM <span id="perKm"></span> </div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">Type de transfert</div>
+                          <div class="chbs-summary-field-value">Allez simple</div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">Adresse de Départ</div>
+                          <div class="chbs-summary-field-value" id="depart"></div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">Adresse d'Arrivée</div>
+                          <div class="chbs-summary-field-value" id="arrive"></div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+
+                          <div class="chbs-summary-field-name">DATE ET HEURE DE DÉPART<br>
+                            Date et heure de départ</div>
+                          <div class="chbs-summary-field-value"><span id="selectedDate"></span> <span id="selectedTime"></span></div>
+
+                        </div>
+
+                        <div class="chbs-summary-field">
+                          <div class="chbs-layout-50x50 chbs-clear-fix">
+                            <div class="chbs-layout-column-left">
+
+                              <div class="chbs-summary-field-name">Distance</div>
+                              <div class="chbs-summary-field-value">378.2 km</div>
+
+                            </div>
+                            <div class="chbs-layout-column-right">
+
+                              <div class="chbs-summary-field-name">Durée</div>
+                              <div class="chbs-summary-field-value"><span class="hours"></span> h <span class="minutes"></span> m</div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="chbs-summary-price-element">
+
+                        <div class="chbs-summary-price-element-vehicle-fee">
+                          <span>Véhicule choisi</span>
+                          <span class="vehChoose"></span>
+                        </div>
+
+                        <div class="chbs-summary-price-element-total">
+                          <span>Total</span>
+                          <span class="totalFare">€0</span>
+                        </div>
+
+                      </div>
+                      <div class="resize-sensor"
+                        style="position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden;">
+                        <div class="resize-sensor-expand"
+                          style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                          <div
+                            style="position: absolute; left: 0px; top: 0px; transition: all; width: 244px; height: 790px;">
+                          </div>
+                        </div>
+                        <div class="resize-sensor-shrink"
+                          style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                          <div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- <div class="reservation_info">
+                    <h2 class="reservation_info-title">Résumé</h2>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">Type de course</p>
+                      <p class="reservation_info-value">Tarif par KM</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">Type de transfert</p>
+                      <p class="reservation_info-value">Allez simple</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">Adresse de Départ</p>
+                      <p class="reservation_info-value">Paris, France</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">DATE ET HEURE DE DÉPART<br>
+                        Date et heure de départ</p>
+                      <p class="reservation_info-value">28-01-2025, 0:00</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <p class="reservation_info-header">Type de course</p>
+                      <p class="reservation_info-value">Tarif par KM</p>
+                    </div>
+                    <div class="reservation_info-inner">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <p class="reservation_info-header">Distance</p>
+                          <p class="reservation_info-value">378.2 km</p>
+                        </div>
+                        <div class="col-md-6">
+                          <p class="reservation_info-header">Durée</p>
+                          <p class="reservation_info-value">3 h 40 m</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+
+                </div>
+                <div class="col-md-9">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="reservation_form-label">Prénom</label>
+                      <input type="text" class="reservation_form-input" id="lastname" name="lastname" required>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="reservation_form-label">NOM</label>
+                      <input type="text" class="reservation_form-input" id="name" name="name" required>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="reservation_form-label">Adresse e-mail</label>
+                      <input type="email" class="reservation_form-input" id="email" name="email" required>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="reservation_form-label">Numéro de téléphone</label>
+                      <input type="text" class="reservation_form-input" id="phone" name="phone" required>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="reservation_form-label">Message</label>
+                      <textarea class="reservation_form-input h-100" id="message" name="message" rows="4"
+                        required></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div class="g-recaptcha" data-sitekey="6LexbaYkAAAAABLjdPdMBnQOvZ-4v_Ie6_F8uN9L">
+                      </div>
+                      <br />
+                      <div id="devis-form-response" style="font-size: 2rem;"></div>
+                    </div>
+                    <div class="checkbox d-flex align-items-center mb-5">
+                      <input name="condition" type="checkbox" style="width: 4rem; height: 2rem;" />
+                      <span class="form_box-form--label" style="font-size: 1.2rem;">
+                        En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                        de vos données par ce site *</span>
+                      <i class="fa fa-info-square" aria-hidden="true"></i>
+                    </div>
+                    <div class="d-flex justify-content-center mx-auto w-100">
+                      <button id="submit" value="submit" class="reservation_form-button form-submit">Valider mon devis
+                        &nbsp; <i class="fas fa-chevron-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  $("#btn1").click(function () {
+    $(".btn1").css("background-color", "#F4E6D9");
+    $(".btn2").css("background-color", "#fff");
+  });
+
+  $("#btn2").click(function () {
+    $(".btn2").css("background-color", "#F4E6D9");
+    $(".btn1").css("background-color", "#fff");
+  });
+
+
+  $("#form-1-btn").click(function () {
+    if (!$('#date-depart').val() && !$('#time-depart').val() && !$('#adresse-de-depart').val() && !$('#adresse-de-destination').val()) {
+      alert('Remplir les valeurs requises');
+      return
+    }
+
+    $(".form-1").hide("slow");
+    $(".form-2").show("slow");
+    $("#step1").removeClass("reservation_step-active");
+    $("#step2").addClass("reservation_step-active");
+  });
+
+  $("#form-2-btn").click(function () {
+
+    $(".form-2").hide("slow");
+    $(".form-3").show("slow");
+    $("#step2").removeClass("reservation_step-active");
+    $("#step3").addClass("reservation_step-active");
+  });
+</script>
+
+
+<!-- Google Maps API Script -->
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=5b3ce3597851110001cf6248674d3558a5df4b4d94aa2d5c0f6e350c&callback=initMap"
+  async defer></script>
+
+<!-- Your JavaScript -->
+<script>
+  // Initialize and add the map
+  function initMap() {
+    // The location (latitude and longitude)
+    const location = { lat: 37.7749, lng: -122.4194 }; // Example: San Francisco
+    // Create a map instance centered on the location
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 10, // Zoom level
+      center: location, // Center map on location
+    });
+    // Add a marker at the location
+    const marker = new google.maps.Marker({
+      position: location,
+      map: map,
+    });
+  }
+</script>
+    </div>
+    <div class="fixphone">
+      <a href="tel:07 67 36 86 14" title="07 67 36 86 14" class="button one phoneone"><i
+          class="fas fa-phone-alt"></i> &nbsp;07 67 36 86 14</a>
+    </div>
+
+    <footer class="footer">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6">
+            <a class="nav-link footer_content-btn upper" href="./reservation.html">réservation en ligne</a>
+          </div>
+            <div class="col-lg-3 my-4 col-md-6">
+                <div class="footer_content f-left">
+                  <h3 class="footer_content-title"> Suivez-nous :</h3>
+                  <div class="footer_content-social">
+                    <a href="" class="footer_content-social--icon"><i class="fab fa-tiktok"></i></a>
+                    <a href="" class="footer_content-social--icon"><i class="fab fa-instagram"></i></a>
+                    <a href="" class="footer_content-social--icon"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-4 col-md-6">
+                <div class="footer_content">
+                  <h3 class="footer_content-title upper">informations pratiques</h3>
+                    <ul class="footer_content-ul">
+                        
+                        <li class="footer_content-li mt-3">
+                            <p class="footer_content-li--link"><i class="fas fa-map-marker-alt blue"></i> Combs-la-Ville</p>
+                        </li>
+                        <li class="footer_content-li mt-3">
+                            <a href="tel:07 67 36 86 14" class="footer_content-li--link"><i class="fas fa-phone-alt blue"></i> <strong>07 67 36 86 14</strong></a>
+                        </li>
+                        <li class="footer_content-li mt-3">
+                            <a href="mailto:ysprivatedriver@gmail.com" class="footer_content-li--link"><i class="fas fa-envelope blue"></i> ysprivatedriver@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 my-4 col-md-6">
+              <div class="footer_logo">
+                <img src="./assets/img/footer-logo.png" alt="" class="footer_logo-img">
+              </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<div class="footer_bottom">
+  <span class="py-3">
+  </span>
+</div>
+
+<div class="footer_bottom2">
+  <span>
+    <a href="https://bhinternet.fr/" target="_blank" class="footer_bottom-p">
+      BH INTERNET - CRÉATION DE SITE | &nbsp;<span id="current-year"></span>
+    </a>
+  </span>
+</div>
+
+
+<script>
+  document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
+<script type="text/javascript" src="https://unpkg.com/axios@0.20.0/dist/axios.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/geo-api-gouv-adresse@0.1.0/dist/index.min.js"></script>
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/formSubmit.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <div id="fixphone">
+      <a href="#" class="button one phoneone" title="up"><i class="fas fa-chevron-up"></i></a>
+    </div>
+  </body>
+</html>
